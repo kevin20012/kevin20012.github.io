@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
+  <link href="https://kevin20012.github.io/tag/machinelearning/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="https://kevin20012.github.io/" rel="alternate" type="text/html" />
+  <updated>2021-08-17T23:29:46+09:00</updated>
+  <id>https://kevin20012.github.io/tag/machinelearning/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">kevin20012’s Studying Blog | </title>
+  
+
+  
+    <subtitle>혼자 공부하고 공부한 내용 정리하는 블로그입니다.</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">머신러닝 1일차</title>
+      <link href="https://kevin20012.github.io/first" rel="alternate" type="text/html" title="머신러닝 1일차" />
+      <published>2021-08-17T01:21:00+09:00</published>
+      <updated>2021-08-17T01:21:00+09:00</updated>
+      <id>https://kevin20012.github.io/first</id>
+      <content type="html" xml:base="https://kevin20012.github.io/first">&lt;p&gt;이 글은 머신러닝 1일차에 관한 얘기입니다.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>kevin20012</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="machinelearning" />
+      
+
+      
+        <summary type="html">이 글은 머신러닝 1일차에 관한 얘기입니다.</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>
