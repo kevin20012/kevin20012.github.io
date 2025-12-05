@@ -4,3 +4,4 @@
 # Other icons can be found at https://ionicons.com/v4/
 social:
 - {icon: "Github", link: "https://github.com/kevin20012"}
+- {icon: "Email", link: "mailto:kevin2001112@gmail.com"}
