@@ -10,10 +10,12 @@ spec:
 
 # Defines the structure of this component, as well as the default values
 blueprint:
+  content_title: ""
   content_html: ""
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
+  content_title: Title
   content_html: <p>This is a <b>testing template</b> made with the <a
     href='https://github.com/cloudcannon/bookshop' target='_blank'>bookshop
     component system.</a></p>
