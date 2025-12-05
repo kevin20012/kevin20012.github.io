@@ -1,3 +1,19 @@
+<div class="container animate" style="margin-bottom: 40px;">
+  <h3 style="margin-bottom: 15px;">All Tags</h3>
+  <div class="tag-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
+    {% assign all_tags = site.tags | sort %}
+    
+    {% for tag in all_tags %}
+      <a href="/tag/{{ tag[0] | slugify }}/" 
+         class="c-button c-button--small" 
+         style="text-transform: capitalize; text-decoration: none;">
+        #{{ tag[0] }} <span style="opacity: 0.6; font-size: 0.8em;">({{ tag[1].size }})</span>
+      </a>
+    {% endfor %}
+  </div>
+</div>
+<hr style="margin: 40px 0; border: 0; border-top: 1px solid #eee;">
+
 {% if include.show_posts %}
 {% assign sorted_posts = site.posts | sort: "date" | reverse %}
 <div class="container animate">
