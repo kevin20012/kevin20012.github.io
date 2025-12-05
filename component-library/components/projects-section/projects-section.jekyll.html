@@ -1,4 +1,5 @@
 <!-- begin projects -->
+{% assign sorted_projects = site.projects | sort: "date" | reverse %}
 <section class="section projects" id="projects">
   <div class="container">
     <div class="row">
@@ -15,7 +16,7 @@
 
           {% if include.show_projects %}
           <div class="row">
-            {% for project in site.projects %}
+            {% for project in sorted_projects %}
               {% if forloop.index <= 6 %}
                 {% bookshop project-card project=project %}
               {% endif %}
