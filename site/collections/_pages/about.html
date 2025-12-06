@@ -16,27 +16,31 @@ content_blocks:
     content_title: "Education"
     content_html: >-
       <ul style="list-style: none; padding-left: 0;">
-        <li style="display: flex; align-items: flex-start; margin-bottom: 25px;">
-          <div style="flex-shrink: 0; width: 60px; height: 60px; margin-right: 20px; border-radius: 8px; overflow: hidden; border: 1px solid #eee; padding: 5px; background: #fff;">
+        <li style="display: flex; flex-direction: column; margin-bottom: 30px; padding-bottom: 30px; border-bottom: 1px solid #eee;">
+          
+          <div style="flex-shrink: 0; width: 64px; height: 64px; margin-bottom: 15px; border-radius: 12px; border: 1px solid #eee; padding: 4px; background: #fff; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
             <img src="/images/inha-logo.png" alt="Inha Univ Logo" style="width: 100%; height: 100%; object-fit: contain;">
           </div>
           
           <div>
-            <strong style="font-size: 1.1em; display: block; margin-bottom: 4px;">인하대학교</strong>
-            <div style="color: #555; font-size: 0.95em; line-height: 1.5;">
-              <em>정보통신공학과 졸업</em><br>
-              <span>Total GPA: <strong>4.35 / 4.5</strong> (98.5 / 100)</span><br>
-              <span style="color: #888; font-size: 0.9em;">2020.03. ~ 2025.08.</span>
+            <strong style="font-size: 1.2em; color: #212529;">인하대학교</strong>
+            <div style="color: #495057; margin-top: 4px;">정보통신공학과 졸업</div>
+            <div style="margin-top: 8px; font-size: 0.95em; color: #555;">
+              <span style="background: #e7f5ff; color: #1971c2; padding: 2px 6px; border-radius: 4px; font-weight: 600; font-size: 0.9em;">GPA 4.35 / 4.5</span>
+              <span style="color: #868e96; margin-left: 5px;">(98.5 / 100)</span>
             </div>
+            <div style="margin-top: 4px; color: #868e96; font-size: 0.9em;">2020.03. ~ 2025.08.</div>
           </div>
         </li>
 
-        <li style="display: flex; align-items: flex-start; margin-bottom: 10px;">
-          <div style="flex-shrink: 0; width: 60px; height: 60px; margin-right: 20px; border-radius: 8px; overflow: hidden; border: 1px solid #eee; padding: 5px; background: #fff;">
-            <img src="/images/kaist-logo.png" alt="KAIST Logo" style="width: 100%; height: 100%; object-fit: contain;">
-          </div>
-          <div style="flex-shrink: 0; width: 60px; height: 60px; margin-right: 20px; border-radius: 8px; overflow: hidden; border: 1px solid #eee; padding: 5px; background: #fff;">
-            <img src="/images/kt-logo.png" alt="KAIST Logo" style="width: 100%; height: 100%; object-fit: contain;">
+        <li style="display: flex; flex-direction: column; margin-bottom: 10px;">
+          <div style="display: flex; align-items: center; margin-bottom: 10px;">
+            <div style="width: 60px; height: 60px; margin-right: 10px; border-radius: 8px; overflow: hidden; border: 1px solid #eee; padding: 5px; background: #fff;">
+              <img src="/images/kaist-logo.png" alt="KAIST Logo" style="width: 100%; height: 100%; object-fit: contain;">
+            </div>
+            <div style="width: 60px; height: 60px; border-radius: 8px; overflow: hidden; border: 1px solid #eee; padding: 5px; background: #fff;">
+              <img src="/images/kt-logo.png" alt="KT Logo" style="width: 100%; height: 100%; object-fit: contain;">
+            </div>
           </div>
           <div>
             <strong style="font-size: 1.1em; display: block; margin-bottom: 4px;">KAIST</strong>
@@ -50,92 +54,123 @@ content_blocks:
   - _bookshop_name: content-with-title
     content_title: "Internship"
     content_html: >-
-      <ul>
-        <li>
-          <strong>인하대학교 Visual Computing & Learning Lab (VCL Lab) 학부연구생</strong><br>
-          <span>2024.03. ~ 2025.06.</span><br>
-        </li>
-      </ul>
+      <div style="border-left: 3px solid #dee2e6; padding-left: 20px; margin-left: 5px;">
+        <div style="margin-bottom: 5px;">
+          <strong style="font-size: 1.1em;">Visual Computing & Learning Lab (VCL Lab)</strong>
+        </div>
+        <div style="color: #495057; margin-bottom: 5px;">인하대학교 학부연구생</div>
+        <span style="color: #888; font-size: 0.9em;">2024.03. ~ 2025.06.</span>
+      </div>
   - _bookshop_name: content-with-title
     content_title: "Publications"
     content_html: >-
-      <ol>
-        <li>
-          Jo, H. W., Maeng, J. S., Park, J. H., Ahn, N., & Park, I. K.* (2025).
-          <strong>A Plug-and-Play Approach for Robust Image Editing in Text-to-Image Diffusion Models</strong>,
-          <em>ICCV Workshop MMFM4 2025</em><br>
-          <a href="https://ugiugi0823.github.io/RLI/" target="_blank">
-            [Project Page]
-          </a>
-        </li>
+      <div style="display: flex; flex-direction: column; gap: 20px;">
+        <div style="background: #f8f9fa; padding: 16px; border-radius: 8px; border-left: 4px solid #339af0;">
+          <div style="font-weight: 600; font-size: 1.05em; margin-bottom: 6px; line-height: 1.4;">
+            A Plug-and-Play Approach for Robust Image Editing in Text-to-Image Diffusion Models
+          </div>
+          <div style="color: #555; font-size: 0.9em; margin-bottom: 8px;">
+            Jo, H. W., Maeng, J. S., <strong>Park, J. H.</strong>, Ahn, N., & Park, I. K.*
+          </div>
+          <div style="display: flex; align-items: center; justify-content: space-between;">
+            <em style="color: #868e96; font-size: 0.9em;">ICCV Workshop MMFM4 2025</em>
+            <a href="https://ugiugi0823.github.io/RLI/" target="_blank" style="text-decoration: none; font-size: 0.85em; background: #339af0; color: white; padding: 4px 10px; border-radius: 4px; font-weight: bold;">Project Page</a>
+          </div>
+        </div>
 
-        <li>
-          Jo, H. W., Park, J. H.,  & Park, I. K.* (2025).
-          <strong>Robust Defect Image Synthesis Using Null Embedding Optimization for Industrial Applications</strong>,
-          <em>currently under review at Pattern Recognition (PR) 2025</em><br>
-          <a href="https://acerghjk-cloud.github.io/PR2025/" target="_blank">
-            [Project Page]
-          </a>
-        </li>
-      </ol>
+        <div style="background: #f8f9fa; padding: 16px; border-radius: 8px; border-left: 4px solid #339af0;">
+          <div style="font-weight: 600; font-size: 1.05em; margin-bottom: 6px; line-height: 1.4;">
+            Robust Defect Image Synthesis Using Null Embedding Optimization for Industrial Applications
+          </div>
+          <div style="color: #555; font-size: 0.9em; margin-bottom: 8px;">
+            Jo, H. W., <strong>Park, J. H.</strong>, & Park, I. K.*
+          </div>
+          <div style="display: flex; align-items: center; justify-content: space-between;">
+            <em style="color: #868e96; font-size: 0.9em;">Pattern Recognition (PR) 2025 (Under Review)</em>
+            <a href="https://acerghjk-cloud.github.io/PR2025/" target="_blank" style="text-decoration: none; font-size: 0.85em; background: #339af0; color: white; padding: 4px 10px; border-radius: 4px; font-weight: bold;">Project Page</a>
+          </div>
+        </div>
+      </div>
   - _bookshop_name: content-with-title
     content_title: "Awards and Honors"
     content_html: >-
-      <h3>Awards</h3>
-      <ul>
-        <li>
-          <strong>2024 인하대학교 AI 챌린지</strong><em>우수상</em><br>
-          <em>2024.08.</em>
-        </li>
-      </ul>
-      <h3>Honors</h3>
-      <ul>
-        <li>
-          <strong>학업우수상</strong><br>
-          <em>2025.03.</em><br>
-          <em>2024.08.</em><br>
-          <em>2022.03.</em><br>
-          <em>2021.03.</em>
-        </li>
-      </ul>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px;">
+        <div style="border: 1px solid #eee; border-radius: 8px; padding: 20px;">
+          <h4 style="margin-top:0; color: #e67700; border-bottom: 2px solid #e67700; display: inline-block; padding-bottom: 4px;">🏆 Awards</h4>
+          <ul style="list-style: none; padding: 0; margin-top: 15px;">
+            <li style="margin-bottom: 10px;">
+              <strong>2024 인하대학교 AI 챌린지</strong><br>
+              <span style="color: #e67700; font-weight: bold;">우수상</span> <span style="color: #adb5bd; font-size: 0.9em;">(2024.08.)</span>
+            </li>
+          </ul>
+        </div>
+        <div style="border: 1px solid #eee; border-radius: 8px; padding: 20px;">
+          <h4 style="margin-top:0; color: #2b8a3e; border-bottom: 2px solid #2b8a3e; display: inline-block; padding-bottom: 4px;">🎖️ Honors</h4>
+          <ul style="list-style: none; padding: 0; margin-top: 15px;">
+            <li style="margin-bottom: 5px;">
+              <strong>학업우수상</strong>
+            </li>
+            <li style="color: #868e96; font-size: 0.9em;">2025.03. | 2024.08. | 2022.03. | 2021.03.</li>
+          </ul>
+        </div>
+      </div>
   - _bookshop_name: content-with-title
-    content_title: "Language Proficiency"
+    content_title: "Language & License"
     content_html: >-
-      <ul>
-        <li><strong>TOEIC</strong>, <em>915</em><br>2025.08.</li>
-        <li><strong>OPIC</strong>, <em>IH</em><br>2025.03.</li>
-      </ul>
-  - _bookshop_name: content-with-title
-    content_title: "Certification and License"
-    content_html: >-
-      <ul>
-        <li><strong>정보처리기사</strong><br>2025.09.</li>
-        <li><strong>빅데이터분석기사</strong><br>2025.07.</li>
-        <li><strong>정보처리기능사</strong><br>2021.05.</li>
-      </ul>
+      <div style="display: flex; flex-wrap: wrap; gap: 20px;">
+        <div style="flex: 1; min-width: 250px;">
+          <h4 style="border-left: 4px solid #339af0; padding-left: 10px; margin-bottom: 15px;">Language</h4>
+          <ul style="list-style: none; padding: 0;">
+            <li style="margin-bottom: 10px; display: flex; justify-content: space-between; border-bottom: 1px solid #f1f3f5; padding-bottom: 5px;">
+              <strong>TOEIC</strong> <span><span style="font-weight:bold; color:#339af0;">915</span> <small style="color:#adb5bd;">(2025.08)</small></span>
+            </li>
+            <li style="margin-bottom: 10px; display: flex; justify-content: space-between; border-bottom: 1px solid #f1f3f5; padding-bottom: 5px;">
+              <strong>OPIC</strong> <span><span style="font-weight:bold; color:#339af0;">IH</span> <small style="color:#adb5bd;">(2025.03)</small></span>
+            </li>
+          </ul>
+        </div>
+        <div style="flex: 1; min-width: 250px;">
+          <h4 style="border-left: 4px solid #3b5998; padding-left: 10px; margin-bottom: 15px;">License</h4>
+          <ul style="list-style: none; padding: 0;">
+            <li style="margin-bottom: 8px;"><strong>정보처리기사</strong> <small style="color:#adb5bd;">(2025.09)</small></li>
+            <li style="margin-bottom: 8px;"><strong>빅데이터분석기사</strong> <small style="color:#adb5bd;">(2025.07)</small></li>
+            <li style="margin-bottom: 8px;"><strong>정보처리기능사</strong> <small style="color:#adb5bd;">(2021.05)</small></li>
+          </ul>
+        </div>
+      </div>
   - _bookshop_name: content-with-title
     content_title: "Military Service"
     content_html: >-
-      <p><strong>대한민국공군 병장 만기전역</strong><br>2022.04. ~ 2024.01.</p>
+      <div style="border-left: 3px solid #dee2e6; padding-left: 20px; margin-left: 5px;">
+        <span style="font-size: 1.5em; margin-right: 15px;">🇰🇷</span>
+        <div>
+          <strong>대한민국 공군 병장 만기전역</strong>
+          <div style="color: #868e96; font-size: 0.9em; margin-top: 2px;">2022.04. ~ 2024.01.</div>
+        </div>
+      </div>
   - _bookshop_name: content-with-title
     content_title: "Skills"
     content_html: >-
-      <p>
-        <img src="https://img.shields.io/badge/Pytorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/></a>&nbsp
-        <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=NumPy&logoColor=white"/></a>&nbsp
-        <img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white"/></a>&nbsp
-        <br>
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/></a>&nbsp
-        <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white"/></a>&nbsp
-        <img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=C&logoColor=white"/></a>&nbsp
-        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white"/></a>&nbsp</a>
-        <img src="https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=Markdown&logoColor=white"/></a>&nbsp
-        <br>
-        <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white"/></a>&nbsp
-        <br>
-        <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=Linux&logoColor=white"/></a>&nbsp
-        <img src="https://img.shields.io/badge/GitHub-gray?style=flat-square&logo=GitHub&logoColor=black"/></a>&nbsp
-        <img src="https://img.shields.io/badge/Git-blue?style=flat-square&logo=Git&logoColor=F05032"/></a>
-      </p>
+      <div style="margin-bottom: 15px;">
+        <h5 style="margin-bottom: 8px; color: #555;">AI & Data Science</h5>
+        <img src="https://img.shields.io/badge/Pytorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/>
+        <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=NumPy&logoColor=white"/>
+        <img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white"/>
+      </div>
+      <div style="margin-bottom: 15px;">
+        <h5 style="margin-bottom: 8px; color: #555;">Languages</h5>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/>
+        <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white"/>
+        <img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=C&logoColor=white"/>
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white"/>
+      </div>
+      <div>
+        <h5 style="margin-bottom: 8px; color: #555;">Tools & Etc</h5>
+        <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=Linux&logoColor=white"/>
+        <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=GitHub&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=Git&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=Markdown&logoColor=white"/>
+      </div>
 ---
 
